@@ -5,7 +5,7 @@ import 'package:untitled1/constant/sizebox.dart';
 import 'package:untitled1/data_for_image/model.dart';
 
 class Profile extends StatefulWidget {
-  const Profile({Key? key}) : super(key: key);
+  const Profile({super.key});
 
   @override
   _ProfileState createState() => _ProfileState();

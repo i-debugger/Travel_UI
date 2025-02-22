@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SubHeading extends StatelessWidget {
   final String text;
-  const SubHeading({Key? key, required this.text}) : super(key: key);
+  const SubHeading({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {

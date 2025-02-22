@@ -4,7 +4,7 @@ import 'package:untitled1/constant/sizebox.dart';
 import 'package:untitled1/constant/subheadingtext.dart';
 
 class FavoritePage extends StatefulWidget {
-  const FavoritePage({Key? key}) : super(key: key);
+  const FavoritePage({super.key});
 
   @override
   _FavoritePageState createState() => _FavoritePageState();
@@ -13,11 +13,11 @@ class FavoritePage extends StatefulWidget {
 class _FavoritePageState extends State<FavoritePage> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(12.0),
+    return const Padding(
+      padding: EdgeInsets.all(12.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children: [
           HeadingText(text: 'Saved Items'),
           SizedBox(height: 250),
           Center(

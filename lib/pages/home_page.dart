@@ -8,7 +8,7 @@ import 'package:untitled1/pages/body_index_2/favorites.dart';
 import 'package:untitled1/pages/body_index_3/profile.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   _HomePageState createState() => _HomePageState();

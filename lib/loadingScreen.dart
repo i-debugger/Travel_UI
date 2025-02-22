@@ -5,7 +5,7 @@ import 'package:untitled1/constant/titletext.dart';
 import 'package:untitled1/pages/home_page.dart';
 
 class StartPage extends StatefulWidget {
-  const StartPage({Key? key}) : super(key: key);
+  const StartPage({super.key});
 
   @override
   _StartPageState createState() => _StartPageState();
@@ -43,14 +43,14 @@ class _StartPageState extends State<StartPage> {
                   height: MediaQuery.of(context).size.height,
                   width: MediaQuery.of(context).size.width,
                 ),
-                Positioned(
+                const Positioned(
                     bottom: 218,
                     left: 130,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       // ignore: prefer_const_literals_to_create_immutables
                       children: [
-                        const Text(
+                        Text(
                           'Explore',
                           style: TextStyle(
                             color: Colors.white,
@@ -60,14 +60,14 @@ class _StartPageState extends State<StartPage> {
                         ),
                       ],
                     )),
-                Positioned(
+                const Positioned(
                     bottom: 215,
                     left: 212,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       // ignore: prefer_const_literals_to_create_immutables
                       children: [
-                        const TitleText(
+                        TitleText(
                           text: 'This Wonderful world',
                         )
                       ],

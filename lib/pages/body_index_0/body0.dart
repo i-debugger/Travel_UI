@@ -12,7 +12,7 @@ import 'package:untitled1/data_for_image/model.dart';
 import 'package:untitled1/pages/infopage.dart';
 
 class Body0 extends StatefulWidget {
-  const Body0({Key? key}) : super(key: key);
+  const Body0({super.key});
 
   @override
   _Body0State createState() => _Body0State();

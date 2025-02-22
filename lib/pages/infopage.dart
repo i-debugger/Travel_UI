@@ -11,12 +11,11 @@ class InfoPage extends StatefulWidget {
   final String image;
   final String country;
   const InfoPage(
-      {Key? key,
+      {super.key,
       required this.title,
       required this.about,
       required this.country,
-      required this.image})
-      : super(key: key);
+      required this.image});
 
   @override
   _InfoPageState createState() => _InfoPageState();

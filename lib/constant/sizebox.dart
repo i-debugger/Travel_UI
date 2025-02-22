@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SizeBox18 extends StatelessWidget {
-  const SizeBox18({Key? key}) : super(key: key);
+  const SizeBox18({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SizeBox18 extends StatelessWidget {
 }
 
 class SizeBox8 extends StatelessWidget {
-  const SizeBox8({Key? key}) : super(key: key);
+  const SizeBox8({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class SizeBox8 extends StatelessWidget {
 }
 
 class SizeBox12 extends StatelessWidget {
-  const SizeBox12({Key? key}) : super(key: key);
+  const SizeBox12({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class SizeBox12 extends StatelessWidget {
 }
 
 class SizeBox24 extends StatelessWidget {
-  const SizeBox24({Key? key}) : super(key: key);
+  const SizeBox24({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class DisplayTextField extends StatelessWidget {
   final String hinttext;
   final Icon icon;
+  // ignore: use_super_parameters
   const DisplayTextField({Key? key, required this.hinttext, required this.icon}) : super(key: key);
 
   @override

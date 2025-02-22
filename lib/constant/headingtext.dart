@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HeadingText extends StatelessWidget {
   final String text;
-  const HeadingText({Key? key, required this.text}) : super(key: key);
+  const HeadingText({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class HeadingText extends StatelessWidget {
 
 class HeadingTextW extends StatelessWidget {
   final String text;
-  const HeadingTextW({Key? key, required this.text}) : super(key: key);
+  const HeadingTextW({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
